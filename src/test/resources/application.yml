@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local # 실제 profile : local
+    active: test
   datasource:
     url: jdbc:mysql://localhost:3062/querydsl?useSSL=false&serverTimezone=Asia/Seoul
     driver-class-name: com.mysql.cj.jdbc.Driver
